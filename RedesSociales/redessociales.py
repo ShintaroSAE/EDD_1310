@@ -27,7 +27,7 @@ print("La diferencia de seguidores es de: ",diff)
 filt_2 = datos[datos["RED SOCIAL"] == 'YOUTUBE']
 
 filt_2 = filt_2[filt_2["CONCEPTO"] == 'VISUALIZACIONES']
-print(filt_2)
+
 print("SELECCIONE 2 MESES (ENERO A JUNIO) PARA CONOCER LA DIFERENCIA DE VISUALIZACIONES")
 var_1 = input()
 var_2 = input()
